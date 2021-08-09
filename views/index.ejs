@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Programming Jokes</title>
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georama:ital@1&family=Oswald:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="icon" href="/smileFavicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body class="box">
+  <form action="/" method="post">
+    <div>
+      <h1> <%=firstPartInIndexEjs%> </h1>
+    </div>
+
+    <% if(secondPartInIndexEjs!=="") { %>
+    <div>
+      <div>
+        <h2> <%=secondPartInIndexEjs%> </h2>
+      </div>
+      <%} %>
+
+      <div class="button-div">
+        <button class="btn-lg btn-primary" type="submit"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
