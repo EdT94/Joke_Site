@@ -1,5 +1,5 @@
 # Joke_Site
-A simple "programming jokes" site, gets the data from a joke site using API, converts it(JSON) and shows the jokes. HTML, CSS, and javascript(node.js as backend) is used. The app is hosted and running ECS, built with Docker.
+A simple "programming jokes" site, gets the data from a joke site using API, converts it(JSON) and shows the jokes. HTML, CSS, and javascript(node.js as backend) are used. The app is hosted on AWS and runs with ECS task which was built with Docker image.
 
 Link:
 http://3.71.25.151/
