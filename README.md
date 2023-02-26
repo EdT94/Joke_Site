@@ -3,7 +3,7 @@ A simple "programming jokes" site, gets the data from a joke site using API, con
 
 Link: http://ec2-18-184-52-73.eu-central-1.compute.amazonaws.com/.
 
-Link to Elastic Beanstalk : http://edt-portfolio.eu-central-1.elasticbeanstalk.com/
+Link to Elastic Beanstalk : http://edt-joke-site.eu-central-1.elasticbeanstalk.com/
 
 
 ![1](https://user-images.githubusercontent.com/81565589/219950210-e9fdb1e8-b8d4-4fae-b0da-cbe3e4662d8f.PNG)
