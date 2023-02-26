@@ -1,7 +1,7 @@
 # Joke_Site
 A simple "programming jokes" site, gets the data from a joke site using API, converts it(JSON) and shows the jokes. HTML, CSS, and javascript(node.js as backend) are used. The App is hosted on AWS as an EC2 instance and on AWS elastic Beanstalk. The EC2 container and the Elastic Beanstalk were built from an image stored on DockerHub. 
 
-Link: http://ec2-18-184-52-73.eu-central-1.compute.amazonaws.com/.
+Link to EC2: http://ec2-18-184-52-73.eu-central-1.compute.amazonaws.com/.
 
 Link to Elastic Beanstalk : http://edt-joke-site.eu-central-1.elasticbeanstalk.com/
 
